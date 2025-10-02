@@ -132,7 +132,7 @@
         padding-top: 20px;
         border-top: 1px solid var(--border-color);
     }
-    
+     
     footer p {
         color: var(--subtle-text);
         font-size: 0.9rem;
@@ -144,7 +144,7 @@
   <!-- Container utama yang membungkus semua konten -->
   <main class="container">
     <header>
-      <h1>Selamat Datang! 👋</h1> 
+      <h1>Selamat Datang 👋</h1> 
     </header>
 
     <section class="content-card"> 
