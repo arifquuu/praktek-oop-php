@@ -79,6 +79,7 @@ switch ($action) {
         $controller->index();
         break;
 }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
