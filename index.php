@@ -79,3 +79,27 @@ switch ($action) {
         $controller->index();
         break;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+    <style> body { font-family: sans-serif; } label, input { display: block; margin-bottom: 10px; } </style>
+</head>
+<body>
+    <a href="/index.php"><< Back to List</a>
+    <h2>Add New Book</h2>
+    <form action="?action=create" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" required>
+
+        <button type="submit">Save Book</button>
+    </form>
+</body>
+</html>
